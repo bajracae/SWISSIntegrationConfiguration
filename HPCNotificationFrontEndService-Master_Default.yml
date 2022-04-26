@@ -1,0 +1,17 @@
+visibility_groups:
+  FULLY_VISIBLE:
+    - '*'
+  INVISIBLE:
+    - ''
+  PILOT_USERS:
+    - aba
+  ADMINS:
+    - aba
+page_visibility:
+  Documentation: FULLY_VISIBLE
+  All Publishers: FULLY_VISIBLE
+  My Publishers: FULLY_VISIBLE
+  Managed Subscriptions: FULLY_VISIBLE
+  All Subscriptions: FULLY_VISIBLE
+  Publisher Sandbox: PILOT_USERS
+  Managed Publishers: ADMINS
